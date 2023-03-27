@@ -1,0 +1,9 @@
+{
+  "name": "example-prisma",
+  "description": "This repository is an exercise in prisma (the next generation Node.js and TypeScript ORM) for me.",
+  "author": "mryhryki",
+  "license": "MIT",
+  "scripts": {
+    "start": ":"
+  }
+}
