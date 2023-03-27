@@ -5,15 +5,14 @@
   "license": "MIT",
   "scripts": {
     "start": "esbuild --target=node18 --format=cjs ./script.ts | node",
-    "migration": "npx prisma migrate dev --name init"
+    "migration": "npx prisma migrate dev --name init",
+    "viewer": "npx prisma studio"
   },
   "devDependencies": {
+    "@prisma/client": "^4.11.0",
     "@types/node": "^18.15.10",
     "esbuild": "^0.17.14",
     "prisma": "^4.11.0",
     "typescript": "^5.0.2"
-  },
-  "dependencies": {
-    "@prisma/client": "^4.11.0"
   }
 }
