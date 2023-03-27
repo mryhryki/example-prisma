@@ -4,7 +4,7 @@
   "author": "mryhryki",
   "license": "MIT",
   "scripts": {
-    "start": ":",
+    "start": "ts-node ./script.ts",
     "migration": "npx prisma migrate dev --name init"
   },
   "devDependencies": {
