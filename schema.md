@@ -2,14 +2,14 @@
 erDiagram
 
   User {
-    Int id PK🗝️ 
+    Int id PK
     String email  
     String name  "nullable"
     }
   
 
   Post {
-    Int id PK🗝️ 
+    Int id PK
     String title  
     String content  "nullable"
     Boolean published  
